@@ -1,5 +1,9 @@
 # Azure Durable Function Example
 
+## Introduction
+This repository contains the code of the hands-on part of my session "Serverless in Azure".
+The slides can be found [here](https://docs.google.com/presentation/d/1r8ly4xohlXivpctokPWbmHaSK406snyCQ7l_ugP4aME/edit?usp=sharing).
+
 ## How to get started
 
 ### Install Dependencies
