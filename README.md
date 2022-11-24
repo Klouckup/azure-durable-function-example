@@ -39,3 +39,14 @@ To setup the storage for the durable function and to disable CORS on your local 
 - `npm run dev`
 
 If the webapp can't reach any function endpoint, check if the written endpoint in `./webapp/orderApp/src/api/api.js` is correct
+
+
+## Architecture
+![Architecture Diagram](/docs/images/Serverless_Durable_Functions_Architecture.png)
+
+### Azure Functions
+- OrderRegistrationStarter (Client Starter Function)
+- OrderOrchestrator (Orchestrator Function)
+- VerifyDishActivity (Activity Function)
+- CreateOrderConfirmationActivity (Activity Function)
+
