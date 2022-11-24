@@ -1,0 +1,17 @@
+
+POST http://localhost:7071/api/order/register HTTP/1.1
+content-type: application/json
+
+{
+    "id":"6591d534-e79c-2e50-700b-9524774f1696",
+    "items":[
+        {
+            "id":"FW",
+            "name":"Falafel-Wrap",
+            "quantity":1
+        }
+    ]
+}
+
+
+GET http://localhost:7071/runtime/webhooks/durabletask/instances/3bbfe13765e54bad8cd2a12b1d3086f4?taskHub=TestHubName&connection=Storage&code=LPgbdfw-KVv1g8JE2XisyJu8WxO_-4HhjLRL9kRn4Kg9AzFu3Kgo0w==

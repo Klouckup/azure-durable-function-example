@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "dishes",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}

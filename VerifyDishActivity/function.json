@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "orderItem",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}
