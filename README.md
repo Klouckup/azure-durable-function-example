@@ -4,6 +4,8 @@
 This repository contains the code of the hands-on part of my session "Serverless in Azure".
 The slides can be found [here](https://docs.google.com/presentation/d/1r8ly4xohlXivpctokPWbmHaSK406snyCQ7l_ugP4aME/edit?usp=sharing).
 
+Disclaimer: The content of the slides and its containing media elements was only created for an educational purpose. It will not be used in a commercial use case.
+
 ## How to get started
 
 ### Install Dependencies
