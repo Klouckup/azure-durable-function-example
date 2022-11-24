@@ -11,6 +11,22 @@
 - `cd webapp/orderApp`
 - `npm install`
 
+### Configure local.settings.json
+To setup the storage for the durable function and to disable CORS on your local host, you have to add the following content to `./local.settings.json`
+```
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<Azure Blob Storage Connection String>",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}
+```
+
 ### Start Durable Functions
 - `npm run start` in the root directory of the repository
 
